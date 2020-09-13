@@ -1,0 +1,13 @@
+p {
+    line-height: 2em;
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2 {
+    font-family: 'Catamaran', sans-serif;;
+}
+span, li{
+    font-family: 'Roboto', sans-serif;
+}
+main {
+    width: 100%;
+}
