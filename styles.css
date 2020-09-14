@@ -3,11 +3,17 @@ p {
     font-family: 'Roboto', sans-serif;
 }
 h1, h2 {
-    font-family: 'Catamaran', sans-serif;;
+    font-family: 'Catamaran', sans-serif;
 }
 span, li{
     font-family: 'Roboto', sans-serif;
 }
 main {
     width: 100%;
+}
+.abouttitle {
+    margin-top: 50px;
+}
+.subhead {
+    margin: -10px 0px 30px 0px;
 }
