@@ -7,6 +7,8 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 
     <title>Paul Hagwood Contact</title>
   </head>
@@ -35,6 +37,63 @@
         </div>
       </nav>
 
+      <main>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7 bg-white my-5 py-4 border">
+            <form id="contact-form" method="post" action="contact.php" role="form">
+
+              <div class="messages"></div>
+          
+              <div class="controls">
+          
+                  <div class="row">
+                      <div class="col-md-12">
+                          <div class="form-group">
+                              <label for="form_name">Your Name</label>
+                              <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your name" required="required" data-error="Firstname is required.">
+                              <div class="help-block with-errors"></div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-md-12">
+                          <div class="form-group">
+                              <label for="form_email">Email</label>
+                              <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email" required="required" data-error="Valid email is required.">
+                              <div class="help-block with-errors"></div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-md-12">
+                          <div class="form-group">
+                              <label for="form_message">Message</label>
+                              <textarea id="form_message" name="message" class="form-control" placeholder="What would you like to create together?" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                              <div class="help-block with-errors"></div>
+                          </div>
+                      </div>
+                      <div class="col-md-12">
+                          <input type="submit" class="btn btn-success btn-send" value="Send message">
+                      </div>
+                  </div>
+                
+              </div>
+          
+          </form>
+        </div>
+
+          </div>
+        </div>
+      </main>
+
+
+      <footer class="fixed-bottom bg-dark text-muted">
+        <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright: Paul Hagwood
+    </div>
+    <!-- Copyright -->
+      </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
