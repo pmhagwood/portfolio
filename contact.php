@@ -1,3 +1,5 @@
+/* was trying to get contact form to work, but this is not functional at this time */
+
 <?php
 /*
  *  CONFIGURE EVERYTHING HERE

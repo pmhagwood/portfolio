@@ -1,3 +1,5 @@
+// Was trying to get started with getting the form to work, but is not functional at this time. 
+
 $(function () {
 
     // init the validator
